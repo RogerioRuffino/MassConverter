@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@100&family=Roboto:wght@100&family=Rowdies:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    border:0;
+  }
+    
+  body {
+    background-color:rgb(247, 237, 237);
+    font-family: 'DynaPuff', cursive;
+    padding:1px;
+    width:100%;
+    /* font-family: 'Rowdies', cursive; */
+    
+    font-size:14px;
+  }
+
+
+.cab{
+  background-color: rgb(28, 79, 23);
+  align-content: center;
+  display:flex;
+  text-align: center;
+  padding-right: 5px;
+  width:98%;
+  margin-left: 5px;
+}
+
+.logo a{
+  color:white;
+  font-size: 20px;
+  left:0;
+}
+
+  .title{
+    padding-left:20px;
+    color:rgb(255,255,255);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  /* .image{
+    width:15% 15%;
+   
+    padding-left: 3px;
+  } */
+
+  .converter{
+    background-color: rgb(27, 152, 69);
+    padding-left:5px;
+    padding-bottom: 3px;
+    /* height: auto; */
+    margin-bottom: 10px;
+    width:98%;
+    margin-left:5px
+
+
+
+  }
+    
+  .lab1 {
+    color:rgb(248, 246, 246);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    padding-bottom: 3px;
+  
+  }
+
+
+  span{
+    color:white;
+  }
+
+  .labcon{
+    /* background-color: darkgreen; */
+    width:;
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 3px;
+    padding-bottom: 3px;  
+  }
+
+  input{
+    background-color: rgb(248, 249, 249);
+    font-size: 1rem;
+    width:45%;
+    height: 30px;
+    border:1px darkgreen solid;
+    text-align: center;
+  }
+  .sel2{
+    width:45%;
+    height: 30px;
+    border:1px rgb(28, 22, 22) solid;
+    font-size: 1rem;
+  }
+  
+/* ========================================================================== */
+/* -------------------Display responsiove celular--------------------------- */
+/* ========================================================================== */
+@media screen and (max-width:300px)  {
+
+  .title{
+    color:rgb(255,255,255);
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .labcon{
+    
+    width:;
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 3px;
+    padding-bottom: 3px;  
+  }
+
+  input{
+    background-color: rgb(248, 249, 249);
+    font-size: 1rem;
+    width:45%;
+    height: 30px;
+    border:1px darkgreen solid;
+    text-align: center;
+  }
+  .sel2{
+    width:45%;
+    height: 30px;
+    border:1px rgb(28, 22, 22) solid;
+    font-size: 1rem;
+  }
+
+}
+
+ 
